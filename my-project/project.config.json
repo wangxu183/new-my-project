@@ -7,7 +7,7 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"cloudfunctionRoot": "functions",
+	"cloudfunctionRoot": "functions/",
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
 	"appid": "wx845b4d04a3a57c4c",

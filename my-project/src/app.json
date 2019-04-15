@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/main",
     "pages/find/main",
-    "pages/logs/main",
+    "pages/map/main",
     "pages/counter/main",
     "pages/mine/main"
   ],
@@ -24,10 +24,10 @@
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
+      "text": "附近",
+      "pagePath": "pages/map/main",
       "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
+      "selectedIconPath": "static/tabs/map.png"
     }, {
       "text": "发现",
       "pagePath": "pages/find/main",
@@ -38,19 +38,6 @@
       "pagePath": "pages/mine/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
-    }],
-
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }],
-    "position": "bottom"
+    }]
   }
 }
