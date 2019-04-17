@@ -89,6 +89,10 @@ export default {
     }
   },
   created () {
+      this.$http.get('http://www.baidu.com', 'param').then((res)=>{
+      console.log('res', res)
+      }).catch(err=>{
+      })
     const db = wx.cloud.database({ env: 'wangxu-44b924' })
     db.collection('candy').get().then(
       res => {
