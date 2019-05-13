@@ -1,5 +1,18 @@
 <template>
   <div>
+    <swiper
+      indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+    >
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}"  width="400" height="180" />
+        </swiper-item>
+      </block>
+    </swiper>
+    
     <i-notice-bar icon="systemprompt" loop>
       {{notice}}
     </i-notice-bar>
@@ -8,19 +21,19 @@
         <i-grid-icon>
             <image src="/static/tabs/1.png" />
         </i-grid-icon>
-        <i-grid-label>点心</i-grid-label>
+        <i-grid-label>景区推荐</i-grid-label>
       </i-grid-item >  
       <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/tabs/2.png" />
         </i-grid-icon>
-        <i-grid-label>主食</i-grid-label>
+        <i-grid-label>民族风情</i-grid-label>
       </i-grid-item>
       <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/tabs/3.png" />
         </i-grid-icon>
-        <i-grid-label>外卖</i-grid-label>
+        <i-grid-label>特色美食</i-grid-label>
       </i-grid-item>
      </i-grid>
      <i-grid i-class="no-border">
@@ -28,20 +41,8 @@
         <i-grid-icon>
             <image src="/static/tabs/4.png" />
         </i-grid-icon>
-        <i-grid-label>饮料</i-grid-label>
+        <i-grid-label>旅游资讯</i-grid-label>
       </i-grid-item>  
-      <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/tabs/5.png" />
-        </i-grid-icon>
-        <i-grid-label>菜蔬</i-grid-label>
-      </i-grid-item>
-      <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/tabs/6.png" />
-        </i-grid-icon>
-        <i-grid-label>面食</i-grid-label>
-      </i-grid-item>
     </i-grid>
     <i-panel title="美食推荐">
       <view  v-for="item in candys" :key="item" class="top-padding">
@@ -60,6 +61,15 @@ import card from '@/components/card'
 export default {
   data () {
     return {
+      imgUrls: [
+      'http://image.bestxinlv.com/xlly/RichImage/20190411163152733.jpg',
+      'http://ly.xiaohongshu.wang/gz2-bd-p/images/t2.jpg',
+      'http://www.gzcts09.com/uploads/allimg/180202/2-1P2021A3480-L.jpg'
+    ],
+    indicatorDots: false,
+    autoplay: false,
+    interval: 5000,
+    duration: 1000,
       candys: [],
       notice: '不赚超模那份钱，就不吃超模那份苦了，开心最重要',
       motto: 'Hello miniprograme',
