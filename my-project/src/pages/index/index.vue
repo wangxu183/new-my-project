@@ -1,37 +1,37 @@
 <template>
   <div>
+
+
+
     <swiper
       indicator-dots="{{indicatorDots}}"
       autoplay="{{autoplay}}"
       interval="{{interval}}"
       duration="{{duration}}"
     >
-      <block wx:for="{{imgUrls}}">
+      <block v-for=" item in imgUrls" :key="item">
         <swiper-item>
-          <image src="{{item}}"  width="400" height="180" />
+          <image src="item" width="400" height="180" />
         </swiper-item>
       </block>
     </swiper>
-    
-    <i-notice-bar icon="systemprompt" loop>
-      {{notice}}
-    </i-notice-bar>
+  
     <i-grid i-class="no-border">
       <i-grid-item  i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/1.png" />
+            <image src="/static/tabs/dianzan.png" />
         </i-grid-icon>
         <i-grid-label>景区推荐</i-grid-label>
       </i-grid-item >  
       <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/2.png" />
+            <image src="/static/tabs/wujiaoxing.png" />
         </i-grid-icon>
         <i-grid-label>民族风情</i-grid-label>
       </i-grid-item>
       <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/3.png" />
+            <image src="/static/tabs/daocha.png" />
         </i-grid-icon>
         <i-grid-label>特色美食</i-grid-label>
       </i-grid-item>
@@ -39,7 +39,7 @@
      <i-grid i-class="no-border">
       <i-grid-item i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/4.png" />
+            <image src="/static/tabs/weixin.png" />
         </i-grid-icon>
         <i-grid-label>旅游资讯</i-grid-label>
       </i-grid-item>  
@@ -71,7 +71,6 @@ export default {
     interval: 5000,
     duration: 1000,
       candys: [],
-      notice: '不赚超模那份钱，就不吃超模那份苦了，开心最重要',
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
