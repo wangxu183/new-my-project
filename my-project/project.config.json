@@ -11,8 +11,8 @@
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
 	"appid": "wx845b4d04a3a57c4c",
-	"projectname": "wu",
-	"libVersion": "2.6.5",
+	"projectname": "5.15",
+	"libVersion": "2.7.0",
 	"condition": {
 		"search": {
 			"current": -1,

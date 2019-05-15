@@ -1,18 +1,15 @@
 <template>
   <div>
-
-
-
     <swiper
-      indicator-dots="{{indicatorDots}}"
-      autoplay="{{autoplay}}"
-      interval="{{interval}}"
-      duration="{{duration}}"
+      :ndicator-dots="indicatorDots"
+      :autoplay="autoplay"
+      :interval="interval"
+      :duration="duration"
     >
       <block v-for=" item in imgUrls" :key="item">
-        <swiper-item>
-          <image src="item" width="400" height="180" />
-        </swiper-item>
+          <swiper-item>
+             <image :src="item" width="420" height="300" />
+          </swiper-item>
       </block>
     </swiper>
   
@@ -35,15 +32,28 @@
         </i-grid-icon>
         <i-grid-label>特色美食</i-grid-label>
       </i-grid-item>
-     </i-grid>
-     <i-grid i-class="no-border">
       <i-grid-item i-class="no-border">
         <i-grid-icon>
             <image src="/static/tabs/weixin.png" />
         </i-grid-icon>
         <i-grid-label>旅游资讯</i-grid-label>
       </i-grid-item>  
-    </i-grid>
+     </i-grid>
+      <div class="main">
+	      <a href="#">
+	         <p class="clearfix">
+			        <img src="/static/tabs/18.jpg" width="50" height="30" alt="#">
+	          </p>
+		    <ul>
+			     <li class="box-image2">
+			      <img src="/static/tabs/16.png" width="50" height="15" alt="#">
+			     </li>
+			     <li class="box-image3">
+				    <img src="/static/tabs/14.jpg" width="50" height="15" alt="#" >
+			     </li>
+		    </ul>
+		   </a>
+    </div>
     <i-panel title="美食推荐">
       <view  v-for="item in candys" :key="item" class="top-padding">
          <i-card :title="item.name" :extra="item.intro" thumb="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554136734498&di=4a94d72ac1a61ec76e83c1e5e6202629&imgtype=0&src=http%3A%2F%2Fimg1.qunarzz.com%2Fp%2Ftts6%2F1702%2Fa4%2Feac2c8a1e491e02.jpg_r_750x500x90_d537b527.jpg">
@@ -59,15 +69,14 @@
 import card from '@/components/card'
 
 export default {
-  data () {
-    return {
+    data : {
       imgUrls: [
-      'http://image.bestxinlv.com/xlly/RichImage/20190411163152733.jpg',
-      'http://ly.xiaohongshu.wang/gz2-bd-p/images/t2.jpg',
-      'http://www.gzcts09.com/uploads/allimg/180202/2-1P2021A3480-L.jpg'
+      'http://www.gzcts01.com//uploads/1489825451_4926.png',
+      'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
+      'http://www.gzcts01.com//uploads/image/1520587659_4756.png'
     ],
     indicatorDots: false,
-    autoplay: false,
+    autoplay: true,
     interval: 5000,
     duration: 1000,
       candys: [],
@@ -76,8 +85,8 @@ export default {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
       }
-    }
-  },
+    },
+    
 
   components: {
     card
@@ -123,6 +132,44 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
+  body,ul,li,p{
+	margin:0 auto;
+	padding:0 auto;
+	}
+    .main{
+	  width:30rpx;
+	  height:610rpx;
+	}
+	
+	ul{
+	   list-style:none;
+	}
+	a{
+	   text-decoration:none;
+	}
+	 .clearfix::fter{
+	    content:"";
+		  display:block;
+      clear:both;
+	 }
+     
+	p{
+	   float:left;
+	   width:5rpx;
+	   height:280rpx;
+	    margin-left:0rpx;
+	   /* margin-right:4rpx;  */
+	}
+
+	.dimo.box-image2{
+	   width:100rpx;
+	   height:140rpx;
+	}
+
+	.dimo.box-image3{
+	   width:100rpx;
+	   height:140rpx;
+	}
 
 .userinfo {
   display: flex;
