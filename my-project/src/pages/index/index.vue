@@ -14,47 +14,26 @@
     </swiper>
   
     <i-grid i-class="no-border">
-      <i-grid-item  i-class="no-border">
+      <i-grid-item v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/dianzan.png" />
+            <image :src="grid.image" />
         </i-grid-icon>
-        <i-grid-label>景区推荐</i-grid-label>
+        <i-grid-label>{{grid.title}}</i-grid-label>
       </i-grid-item >  
-      <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/tabs/wujiaoxing.png" />
-        </i-grid-icon>
-        <i-grid-label>民族风情</i-grid-label>
-      </i-grid-item>
-      <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/tabs/daocha.png" />
-        </i-grid-icon>
-        <i-grid-label>特色美食</i-grid-label>
-      </i-grid-item>
-      <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/tabs/weixin.png" />
-        </i-grid-icon>
-        <i-grid-label>旅游资讯</i-grid-label>
-      </i-grid-item>  
      </i-grid>
-      <div class="main">
-	      <a href="#">
-	         <p class="clearfix">
-			        <img src="/static/tabs/18.jpg" width="50" height="30" alt="#">
-	          </p>
-		    <ul>
-			     <li class="box-image2">
-			      <img src="/static/tabs/16.png" width="50" height="15" alt="#">
-			     </li>
-			     <li class="box-image3">
-				    <img src="/static/tabs/14.jpg" width="50" height="15" alt="#" >
-			     </li>
-		    </ul>
-		   </a>
-    </div>
-    <i-panel title="美食推荐">
+     <div>
+       <a href="#">
+         <ul>
+           <li> 
+             <img src="/static/tabs/18.jpg" width="50" height="100" alt="#">
+           </li>
+            <li> 
+             <img src="/static/tabs/14.jpg" width="50" height="100" alt="#">
+           </li>
+         </ul>
+       </a>
+     </div>
+    <i-panel :title="title_name">
       <view  v-for="item in candys" :key="item" class="top-padding">
          <i-card :title="item.name" :extra="item.intro" thumb="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554136734498&di=4a94d72ac1a61ec76e83c1e5e6202629&imgtype=0&src=http%3A%2F%2Fimg1.qunarzz.com%2Fp%2Ftts6%2F1702%2Fa4%2Feac2c8a1e491e02.jpg_r_750x500x90_d537b527.jpg">
           <view slot="content">{{item.type}}</view>
@@ -79,6 +58,13 @@ export default {
     autoplay: true,
     interval: 5000,
     duration: 1000,
+      title_name: "旅游咨询",
+      grids: [
+        {title:"景区推荐",image:"/static/tabs/tour.png"},
+        {title:"民族风情",image:"/static/tabs/fun.png"},
+        {title:"特色美食",image:"/static/tabs/food.png"},
+        {title:"旅游咨询",image:"/static/tabs/play.png"},
+      ],
       candys: [],
       motto: 'Hello miniprograme',
       userInfo: {
@@ -132,44 +118,21 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
-  body,ul,li,p{
-	margin:0 auto;
-	padding:0 auto;
-	}
-    .main{
-	  width:30rpx;
-	  height:610rpx;
-	}
-	
-	ul{
-	   list-style:none;
-	}
-	a{
-	   text-decoration:none;
-	}
-	 .clearfix::fter{
-	    content:"";
-		  display:block;
-      clear:both;
-	 }
-     
-	p{
-	   float:left;
-	   width:5rpx;
-	   height:280rpx;
-	    margin-left:0rpx;
-	   /* margin-right:4rpx;  */
-	}
-
-	.dimo.box-image2{
-	   width:100rpx;
-	   height:140rpx;
-	}
-
-	.dimo.box-image3{
-	   width:100rpx;
-	   height:140rpx;
-	}
+   ul{
+   list-style:none;
+   display:inline-block;
+   }
+   .clearfix::after{
+    display:block;
+    content:"";
+    clear:both;
+   }
+   li{
+     float:left;
+   }
+   a{
+     text-decoration:none;
+   }
 
 .userinfo {
   display: flex;
