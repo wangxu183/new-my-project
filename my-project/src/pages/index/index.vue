@@ -21,18 +21,12 @@
         <i-grid-label>{{grid.title}}</i-grid-label>
       </i-grid-item >  
      </i-grid>
-     <div>
-       <a href="#">
-         <ul>
-           <li> 
-             <img src="/static/tabs/18.jpg" width="50" height="100" alt="#">
-           </li>
-            <li> 
-             <img src="/static/tabs/14.jpg" width="50" height="100" alt="#">
-           </li>
-         </ul>
-       </a>
-     </div>
+     <h2 class="clearfix">
+         <img  class="img1" src="/static/tabs/1.jpg" >
+     </h2>
+     <h3 class="clearfix1">
+       <img  class="img1"  src="/static/tabs/18.jpg" >
+     </h3>
       <i-panel :title="title_name">
         <view class="top-padding">
           <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
@@ -175,6 +169,7 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
+  
   p{
     font-size:14px;
     color:#CDC0B0;
@@ -189,6 +184,10 @@ div >>> .top-padding{
     padding-top:10px;
     border-bottom:2px solid #EEE9E9;
   }
+  .img1{
+    width:200px;
+    height:150px;
+  }
   button{
     font-size:15px;
     color:green;
@@ -197,10 +196,15 @@ div >>> .top-padding{
    list-style:none;
    display:inline-block;
    }
-   .clearfix::after{
+   .clearfix{
     display:block;
-    content:"";
-    clear:both;
+    width:200px;
+    height:150px;
+   }
+    .clearfix1{
+    display:block;
+    width:200px;
+    height:150px;
    }
    a{
      text-decoration:none;
