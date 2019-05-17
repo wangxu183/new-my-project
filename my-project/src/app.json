@@ -4,7 +4,9 @@
     "pages/find/main",
     "pages/map/main",
     "pages/counter/main",
-    "pages/mine/main"
+    "pages/mine/main",
+    "pages/detail/main",
+    "pages/detail1/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,14 +22,14 @@
 
     "list": [{
       "text": "首页",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/find/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home1.png"
     },{
       "text": "资讯",
-      "pagePath": "pages/find/main",
+      "pagePath": "pages/detail/main",
       "iconPath": "static/tabs/news.png",
-      "selectedIconPath": "static/tabs/news1.png"
+      "selectedIconPath": "static/tabs/news2.png"
     }, {
       "text": "地图",
       "pagePath": "pages/map/main",

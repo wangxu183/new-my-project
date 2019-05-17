@@ -33,15 +33,15 @@
          </ul>
        </a>
      </div>
-    <i-panel :title="title_name">
-       <view class="top-padding">
-         <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
-          <view slot="content">{{item.name2}}</view>
-          <view slot="footer">{{item.time}}</view>
-         </i-card>
-          <view class="top-padding"></view>
-      </view>
-   </i-panel>
+      <i-panel :title="title_name">
+        <view class="top-padding">
+          <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
+            <view slot="content">{{item.name2}}</view>
+            <view slot="footer">{{item.time}}</view>
+          </i-card>
+            <view class="top-padding"></view>
+        </view>
+    </i-panel>
       <button
         type="default"
         :size="defaultSize"
@@ -50,8 +50,42 @@
         :disabled="disabled"
         hover-class="other-button-hover"
       >
-        查看更多
-      </button>
+        查看更多>>>
+      </button> 
+      <i-panel :title="title_name1"> 
+          <ul>
+            <li>
+            <h1>受降雨影响，贵州梵净山景区西线山门关闭</h1>
+            <p>2019-3-4 14:36:08</p>
+            </li> 
+            <li>
+            <h1>"文体旅"融合发展，贵州将办多项赛事</h1>
+             <p>2019-3-4 14:36:08</p>
+            </li> 
+            <li>
+            <h1>贵州，有生之年一定要去一次</h1>
+             <p>2019-3-4 14:36:08</p>
+            </li> 
+            <li>
+            <h1>受降雨影响 贵州部分景区暂时关闭</h1>
+             <p>2019-3-4 14:36:08</p>
+            </li> 
+            <li>
+            <h1>2019国际山地旅游暨户外发展大会贵州站启动</h1>
+             <p>2019-3-4 14:36:08</p>
+            </li> 
+          </ul> 
+      </i-panel>  
+      <button
+        type="default"
+        :size="defaultSize"
+        :loading="loading"
+        :plain="plain"
+        :disabled="disabled"
+        hover-class="other-button-hover"
+      >
+        查看更多>>>
+      </button> 
   </div>
 </template>
 
@@ -75,7 +109,8 @@ export default {
     autoplay: true,
     interval: 5000,
     duration: 1000,
-      title_name: "旅游咨询",
+      title_name: "旅游资讯",
+      title_name1: "旅游动态",
       grids: [
         {title:"景区推荐",image:"/static/tabs/tour.png"},
         {title:"民族风情",image:"/static/tabs/fun.png"},
@@ -140,6 +175,20 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
+  p{
+    font-size:14px;
+    color:#CDC0B0;
+    padding-left:8px;
+  }
+  li{
+    display:block;
+    width:400px;
+    height:50px;
+    font-size:17px;
+    padding-left:8px;
+    padding-top:10px;
+    border-bottom:2px solid #EEE9E9;
+  }
   button{
     font-size:15px;
     color:green;
@@ -152,9 +201,6 @@ div >>> .top-padding{
     display:block;
     content:"";
     clear:both;
-   }
-   li{
-     float:left;
    }
    a{
      text-decoration:none;
