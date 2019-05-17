@@ -14,7 +14,7 @@
     </swiper>
   
     <i-grid i-class="no-border">
-      <i-grid-item v-for="grid in grids" :key="grid" i-class="no-border">
+      <i-grid-item @click="goType" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
             <image :src="grid.image" />
         </i-grid-icon>
@@ -34,13 +34,24 @@
        </a>
      </div>
     <i-panel :title="title_name">
-      <view  v-for="item in candys" :key="item" class="top-padding">
-         <i-card :title="item.name" :extra="item.intro" thumb="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554136734498&di=4a94d72ac1a61ec76e83c1e5e6202629&imgtype=0&src=http%3A%2F%2Fimg1.qunarzz.com%2Fp%2Ftts6%2F1702%2Fa4%2Feac2c8a1e491e02.jpg_r_750x500x90_d537b527.jpg">
-          <view slot="content">{{item.type}}</view>
-          <view slot="footer">{{item.com}}</view>
+       <view class="top-padding">
+         <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
+          <view slot="content">{{item.name2}}</view>
+          <view slot="footer">{{item.time}}</view>
          </i-card>
+          <view class="top-padding"></view>
       </view>
-    </i-panel>
+   </i-panel>
+      <button
+        type="default"
+        :size="defaultSize"
+        :loading="loading"
+        :plain="plain"
+        :disabled="disabled"
+        hover-class="other-button-hover"
+      >
+        查看更多
+      </button>
   </div>
 </template>
 
@@ -49,6 +60,12 @@ import card from '@/components/card'
 
 export default {
     data : {
+        defaultSize: 'default',
+        primarySize: 'default',
+        warnSize: 'default',
+        disabled: false,
+        plain: false,
+        loading: false,
       imgUrls: [
       'http://www.gzcts01.com//uploads/1489825451_4926.png',
       'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
@@ -65,7 +82,12 @@ export default {
         {title:"特色美食",image:"/static/tabs/food.png"},
         {title:"旅游咨询",image:"/static/tabs/play.png"},
       ],
-      candys: [],
+      top: [
+         {name1:"贵州乌江深处",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
+         {name1:"贵州乌江深处2",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
+         {name1:"贵州乌江深处3",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
+         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"}
+      ],
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
@@ -118,6 +140,10 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
+  button{
+    font-size:15px;
+    color:green;
+  }
    ul{
    list-style:none;
    display:inline-block;
