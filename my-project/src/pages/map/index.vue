@@ -3,14 +3,13 @@
  
       <map
         id="map"
-        longitude="114.352085"
-        latitude="30.595681"
+        longitude="106.62304"
+        latitude="26.67856"
         :scale="scale"
         :controls="controls"
         @controltap="controltap"
         :markers="markers"
         @markertap="markertap"
-        :polyline="polyline"
         @regionchange="regionchange"
         show-location
         style="width: 100%; height:100%;"
@@ -26,26 +25,14 @@ export default {
 
   data () {
     return {
-      scale:14,
+      scale:8,
       markers: [{
       iconPath: '/static/images/marker.png',
       id: 0,
-      latitude: 30.595681,
-      longitude:114.352085,
+      latitude: 26.67856,
+      longitude:106.62304,
       width: 50,
       height: 50
-    }],
-    polyline: [{
-      points: [{
-        longitude: 114.340713,
-        latitude: 30.58292
-      }, {
-        longitude: 114.352085,
-        latitude: 30.595681
-      }],
-      color: '#FF0000DD',
-      width: 2,
-      dottedLine: true
     }],
     controls: [{
       id: 1,

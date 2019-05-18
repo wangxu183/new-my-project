@@ -5,10 +5,11 @@
       :autoplay="autoplay"
       :interval="interval"
       :duration="duration"
+      class="top-padding"
     >
       <block v-for=" item in imgUrls" :key="item">
           <swiper-item @click="transfor()" >
-             <image :src="item" width="420" height="300" />
+             <image class="img2" :src="item"/>
           </swiper-item>
       </block>
     </swiper>
@@ -21,19 +22,32 @@
         <i-grid-label>{{grid.title}}</i-grid-label>
       </i-grid-item >  
      </i-grid>
-      <i-panel :title="title_name">
-        <view class="top-padding">
-          <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
-            <view slot="content">{{item.name2}}</view>
-            <view slot="footer">{{item.time}}</view>
-          </i-card>
-            <view class="top-padding"></view>
-        </view>
-    </i-panel>
+      <i-panel :title="title_name">         
+            <view class="box1" @click="transfor()">
+            <img class="imga" src="/static/tabs/16.png">
+            <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
+            <p class="grad">2019-3-4 14:36:08</p>
+          </view>
+          <view class="box1" @click="transfor()">
+            <img class="imga" src="/static/tabs/10.jpg">
+            <p class="brad">贵州首条直升飞机低空旅游航线 暨航空物流港在凯里开工建设</p>
+            <p class="grad">2017-7-04 09:02:58</p>
+          </view>
+          <view class="box1" @click="transfor()">
+            <img class="imga" src="/static/tabs/16.png">
+            <p class="brad">贵州荔波发展全域旅游“实现生态美、百姓富”</p>
+            <p class="grad">2018-6-25 18:06:34</p>
+          </view>
+          <view class="box1" @click="transfor()">
+            <img class="imga" src="/static/tabs/16.png">
+            <p class="brad">一条渠作价3000万入股旅游公司 贵州中天集团探索金融扶贫</p>
+            <p class="grad">2019-01-06 10:06:58</p>
+          </view>
+        </i-panel>
            <view>
-      <ul>
+      <ul @click="transfor()">
           <li>
-            <h2 class="dimo1">
+            <h2 class="dimo1" >
               <img  class="img1" src="/static/tabs/18.jpg">
             </h2>
             <h3 class="dimo">
@@ -67,23 +81,23 @@
         <ul @click="transfor()"  >
             <li class="box" >
             受降雨影响，贵州梵净山景区西线山门关闭
-            <p>2019-3-4 14:36:08</p>
+            <p class="grad">2019-3-4 14:36:08</p>
             </li> 
             <li class="box">
             "文体旅"融合发展，贵州将办多项赛事
-             <p>2019-3-4 14:36:08</p>
+             <p class="grad">2019-3-4 14:36:08</p>
             </li > 
             <li class="box">
             贵州，有生之年一定要去一次
-             <p>2019-3-4 14:36:08</p>
+             <p class="grad">2019-3-4 14:36:08</p>
             </li> 
             <li  class="box">
             受降雨影响 贵州部分景区暂时关闭
-             <p>2019-3-4 14:36:08</p>
+             <p class="grad">2019-3-4 14:36:08</p>
             </li> 
             <li  class="box">
             2019国际山地旅游暨户外发展大会贵州站启动
-             <p>2019-3-4 14:36:08</p>
+             <p class="grad">2019-3-4 14:36:08</p>
             </li> 
           </ul>  
       </i-panel>
@@ -130,12 +144,7 @@ export default {
         {title:"特色美食",image:"/static/tabs/food.png"},
         {title:"旅游咨询",image:"/static/tabs/play.png"},
       ],
-      top: [
-         {name1:"贵州乌江深处",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
-         {name1:"贵州乌江深处2",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
-         {name1:"贵州乌江深处3",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"},
-         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/wujiang.png"}
-      ],
+
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
@@ -210,11 +219,34 @@ div >>> .top-padding{
     margin-left:4px;
     margin-top:5px;
   }
-  p{
+
+  .grad{
     font-size:14px;
     color:#CDC0B0;
     padding-left:8px;
   }
+  .brad{
+    font-size:15px;
+    margin-top:8px;
+    margin-right:5px;
+  }
+  .box1{
+   display:block;
+   width:380px;
+   height:80px;
+   border-bottom:1px solid #EEE9E9;
+   
+  }
+   .imga{
+     float:left;
+     width:100px;
+     height:70px;
+     margin-top:4px;
+     margin-left:8px;
+     margin-right:8px;
+     margin-bottom:10px;
+   }
+
   .box{
     display:block;
     width:400px;
@@ -228,6 +260,10 @@ div >>> .top-padding{
     width:175px;
     height:150px;
     text-align:center;
+  }
+  .img2{
+    width:390px;
+    height:180px;
   }
   button{
     font-size:15px;
