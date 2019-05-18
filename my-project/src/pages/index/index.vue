@@ -30,6 +30,28 @@
             <view class="top-padding"></view>
         </view>
     </i-panel>
+           <view>
+      <ul>
+          <li>
+            <h2 class="dimo1">
+              <img  class="img1" src="/static/tabs/18.jpg">
+            </h2>
+            <h3 class="dimo">
+              <img  class="img1" src="/static/tabs/1.jpg">
+            </h3>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h2 class="dimo1">
+              <img  class="img1" src="/static/tabs/10.jpg">
+            </h2>
+            <h3 class="dimo">
+              <img  class="img1" src="/static/tabs/7.jpg">
+            </h3>
+          </li>
+        </ul>
+      </view>
       <button
         type="default"
         :size="defaultSize"
@@ -44,23 +66,23 @@
       <i-panel :title="title_name1"> 
         <ul @click="transfor()"  >
             <li class="box" >
-            <h1>受降雨影响，贵州梵净山景区西线山门关闭</h1>
+            受降雨影响，贵州梵净山景区西线山门关闭
             <p>2019-3-4 14:36:08</p>
             </li> 
             <li class="box">
-            <h1>"文体旅"融合发展，贵州将办多项赛事</h1>
+            "文体旅"融合发展，贵州将办多项赛事
              <p>2019-3-4 14:36:08</p>
             </li > 
             <li class="box">
-            <h1>贵州，有生之年一定要去一次</h1>
+            贵州，有生之年一定要去一次
              <p>2019-3-4 14:36:08</p>
             </li> 
             <li  class="box">
-            <h1>受降雨影响 贵州部分景区暂时关闭</h1>
+            受降雨影响 贵州部分景区暂时关闭
              <p>2019-3-4 14:36:08</p>
             </li> 
             <li  class="box">
-            <h1>2019国际山地旅游暨户外发展大会贵州站启动</h1>
+            2019国际山地旅游暨户外发展大会贵州站启动
              <p>2019-3-4 14:36:08</p>
             </li> 
           </ul>  
@@ -176,14 +198,14 @@ div >>> .top-padding{
   .dimo{
   float:right;
    display:block;
-   width:188px;
+   width:184px;
    height:150px;
    margin-top:5px;
   }
   .dimo1{
     float:left;
     display:block;
-    width:185px;
+    width:184px;
     height:150px;
     margin-left:4px;
     margin-top:5px;
@@ -213,25 +235,6 @@ div >>> .top-padding{
   }
    ul{
    list-style:none;
-   }
-   .clearfix1{
-    display:block;
-    width:200px;
-    height:150px;
-   }
-    .clearfix2{
-    display:block;
-    width:200px;
-    height:150px;
-   }
-    .clearfix3{
-    float:left;
-    display:block;
-    width:165px;
-    height:300px;
-   }
-   a{
-     text-decoration:none;
    }
 
 .userinfo {

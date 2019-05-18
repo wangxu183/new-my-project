@@ -6,7 +6,8 @@
     "pages/counter/main",
     "pages/mine/main",
     "pages/list/main",
-    "pages/detail/main"
+    "pages/detail/main",
+    "pages/mation/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,12 +23,12 @@
 
     "list": [{
       "text": "首页",
-      "pagePath": "pages/find/main",
+      "pagePath": "pages/index/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home1.png"
     },{
       "text": "资讯",
-      "pagePath": "pages/detail/main",
+      "pagePath": "pages/find/main",
       "iconPath": "static/tabs/news.png",
       "selectedIconPath": "static/tabs/news2.png"
     }, {
