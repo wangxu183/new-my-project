@@ -7,14 +7,14 @@
       :duration="duration"
     >
       <block v-for=" item in imgUrls" :key="item">
-          <swiper-item>
+          <swiper-item @click="transfor()" >
              <image :src="item" width="420" height="300" />
           </swiper-item>
       </block>
     </swiper>
   
     <i-grid i-class="no-border">
-      <i-grid-item  v-for="grid in grids" :key="grid" i-class="no-border">
+      <i-grid-item @click="change(grid)"  v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
             <image :src="grid.image" />
         </i-grid-icon>
@@ -30,22 +30,6 @@
             <view class="top-padding"></view>
         </view>
     </i-panel>
-            <view >
-        <h2 class="dimo1">
-          <img  class="img1" src="/static/tabs/18.jpg">
-        </h2>
-        <h3 class="dimo">
-          <img  class="img1" src="/static/tabs/1.jpg">
-        </h3>
-      </view>
-      <view >
-        <h2 class="dimo1">
-          <img  class="img1" src="/static/tabs/10.jpg">
-        </h2>
-        <h3 class="dimo">
-          <img  class="img1" src="/static/tabs/7.jpg">
-        </h3>
-      </view>
       <button
         type="default"
         :size="defaultSize"
@@ -53,33 +37,35 @@
         :plain="plain"
         :disabled="disabled"
         hover-class="other-button-hover"
+        @click="refer()"
       >
         查看更多>>>
       </button> 
       <i-panel :title="title_name1"> 
-          <ul>
-            <li class="dimo">
+        <ul @click="transfor()"  >
+            <li class="box" >
             <h1>受降雨影响，贵州梵净山景区西线山门关闭</h1>
             <p>2019-3-4 14:36:08</p>
             </li> 
-            <li class="dimo">
+            <li class="box">
             <h1>"文体旅"融合发展，贵州将办多项赛事</h1>
              <p>2019-3-4 14:36:08</p>
             </li > 
-            <li class="dimo">
+            <li class="box">
             <h1>贵州，有生之年一定要去一次</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
-            <li class="dimo">
+            <li  class="box">
             <h1>受降雨影响 贵州部分景区暂时关闭</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
-            <li class="dimo">
+            <li  class="box">
             <h1>2019国际山地旅游暨户外发展大会贵州站启动</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
-          </ul> 
-      </i-panel>  
+          </ul>  
+      </i-panel>
+  
       <button
         type="default"
         :size="defaultSize"
@@ -87,6 +73,7 @@
         :plain="plain"
         :disabled="disabled"
         hover-class="other-button-hover"
+        @click="transfor()"
       >
         查看更多>>>
       </button> 
@@ -140,19 +127,26 @@ export default {
   },
 
   methods: {
-    bindViewTap () {
-      const url = '../logs/main'
-      if (mpvuePlatform === 'wx') {
-        mpvue.switchTab({ url })
-      } else {
-        mpvue.navigateTo({ url })
-      }
+    change(type){
+    console.log('type')
+    let url='../list/main?type=' + type.title
+    mpvue.navigateTo({ url })
     },
-    clickHandle (ev) {
-      console.log('clickHandle:', ev)
-      // throw {message: 'custom test'}
+      transfor () {
+       wx.navigateTo({
+         url:('/pages/list/main')
+       })
+       console.log('页面跳转');
+    },
+      refer () {
+       wx.navigateTo({
+         url:('/pages/list/main')
+       })
+       console.log('tiaozhuan');
     }
   },
+
+
   created () {
       this.$http.get('http://www.baidu.com', 'param').then((res)=>{
       console.log('res', res)
@@ -194,17 +188,12 @@ div >>> .top-padding{
     margin-left:4px;
     margin-top:5px;
   }
-   .clearfix::after{
-    content:"";
-    display:block;
-    clear:both;
-   }
   p{
     font-size:14px;
     color:#CDC0B0;
     padding-left:8px;
   }
-  li{
+  .box{
     display:block;
     width:400px;
     height:50px;
@@ -214,8 +203,9 @@ div >>> .top-padding{
     border-bottom:2px solid #EEE9E9;
   }
   .img1{
-    width:180px;
+    width:175px;
     height:150px;
+    text-align:center;
   }
   button{
     font-size:15px;

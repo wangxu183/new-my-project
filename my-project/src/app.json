@@ -5,8 +5,8 @@
     "pages/map/main",
     "pages/counter/main",
     "pages/mine/main",
-    "pages/detail/main",
-    "pages/detail1/main"
+    "pages/list/main",
+    "pages/detail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

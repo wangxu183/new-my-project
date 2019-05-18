@@ -1,15 +1,5 @@
 <template>
   <div>
-        <button
-            type="default"
-            :size="defaultSize"
-            :loading="loading"
-            :plain="plain"
-            :disabled="disabled"
-            hover-class="other-button-hover"
-        >
-            <img src="/static/tabs/fadajing.png">查看更多>>>
-        </button> 
          <i-panel :title="title_name1"> 
           <ul>
             <li>
@@ -34,16 +24,10 @@
             </li> 
           </ul> 
       </i-panel>  
-
-
-
-
-
   </div>
 </template>
 
 <script>
-import card from '@/components/card'
 
 export default {
     data : {
@@ -54,8 +38,18 @@ export default {
         plain: false,
         loading: false,
         title_name1: "旅游动态",
+      },
+    onLoad (option){
+     console.log(option.type)
     },
+     methods: {
+   
+  },
+
 }
+
+
+
 </script>
 
 
