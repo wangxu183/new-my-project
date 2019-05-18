@@ -14,20 +14,13 @@
     </swiper>
   
     <i-grid i-class="no-border">
-      <i-grid-item @click="goType" v-for="grid in grids" :key="grid" i-class="no-border">
+      <i-grid-item  v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
             <image :src="grid.image" />
         </i-grid-icon>
         <i-grid-label>{{grid.title}}</i-grid-label>
       </i-grid-item >  
-     </i-grid> 
-          <h3 class="clearfix1">
-            <img  class="img1"  src="/static/tabs/18.jpg" >
-          </h3>
-          <h4 class="clearfix2">
-            <img  class="img1"  src="/static/tabs/18.jpg" >
-          </h4>
-    
+     </i-grid>
       <i-panel :title="title_name">
         <view class="top-padding">
           <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
@@ -37,6 +30,22 @@
             <view class="top-padding"></view>
         </view>
     </i-panel>
+            <view >
+        <h2 class="dimo1">
+          <img  class="img1" src="/static/tabs/18.jpg">
+        </h2>
+        <h3 class="dimo">
+          <img  class="img1" src="/static/tabs/1.jpg">
+        </h3>
+      </view>
+      <view >
+        <h2 class="dimo1">
+          <img  class="img1" src="/static/tabs/10.jpg">
+        </h2>
+        <h3 class="dimo">
+          <img  class="img1" src="/static/tabs/7.jpg">
+        </h3>
+      </view>
       <button
         type="default"
         :size="defaultSize"
@@ -49,23 +58,23 @@
       </button> 
       <i-panel :title="title_name1"> 
           <ul>
-            <li>
+            <li class="dimo">
             <h1>受降雨影响，贵州梵净山景区西线山门关闭</h1>
             <p>2019-3-4 14:36:08</p>
             </li> 
-            <li>
+            <li class="dimo">
             <h1>"文体旅"融合发展，贵州将办多项赛事</h1>
              <p>2019-3-4 14:36:08</p>
-            </li> 
-            <li>
+            </li > 
+            <li class="dimo">
             <h1>贵州，有生之年一定要去一次</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
-            <li>
+            <li class="dimo">
             <h1>受降雨影响 贵州部分景区暂时关闭</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
-            <li>
+            <li class="dimo">
             <h1>2019国际山地旅游暨户外发展大会贵州站启动</h1>
              <p>2019-3-4 14:36:08</p>
             </li> 
@@ -170,12 +179,21 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
-   .box{
-   width:370px;
-   height:300px;
-   margin:0 5px;
-   border:2px solid red;
-   } 
+  .dimo{
+  float:right;
+   display:block;
+   width:188px;
+   height:150px;
+   margin-top:5px;
+  }
+  .dimo1{
+    float:left;
+    display:block;
+    width:185px;
+    height:150px;
+    margin-left:4px;
+    margin-top:5px;
+  }
    .clearfix::after{
     content:"";
     display:block;
@@ -196,12 +214,8 @@ div >>> .top-padding{
     border-bottom:2px solid #EEE9E9;
   }
   .img1{
-    width:200px;
+    width:180px;
     height:150px;
-  }
-  .img2{
-    width:160px;
-    height:300px;
   }
   button{
     font-size:15px;
@@ -209,7 +223,6 @@ div >>> .top-padding{
   }
    ul{
    list-style:none;
-   display:inline-block;
    }
    .clearfix1{
     display:block;
