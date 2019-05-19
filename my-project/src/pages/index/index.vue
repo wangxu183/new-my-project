@@ -24,7 +24,7 @@
      </i-grid>
       <i-panel :title="title_name">         
             <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/16.png">
+            <img class="imga" src="/static/tabs/11.jpg">
             <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
             <p class="grad">2019-3-4 14:36:08</p>
           </view>
@@ -34,12 +34,12 @@
             <p class="grad">2017-7-04 09:02:58</p>
           </view>
           <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/16.png">
+            <img class="imga" src="/static/tabs/8.jpg">
             <p class="brad">贵州荔波发展全域旅游“实现生态美、百姓富”</p>
             <p class="grad">2018-6-25 18:06:34</p>
           </view>
           <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/16.png">
+            <img class="imga" src="/static/tabs/19.jpg">
             <p class="brad">一条渠作价3000万入股旅游公司 贵州中天集团探索金融扶贫</p>
             <p class="grad">2019-01-06 10:06:58</p>
           </view>
