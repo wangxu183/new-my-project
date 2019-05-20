@@ -1,28 +1,13 @@
 <template>
   <div >
-      <i-panel :title="title_name1"> 
-        <ul>
-            <li class="box" >
-            时光贵州印象
-            <p>2017-2-5 09:12:08</p>
-            </li> 
-            <li class="box">
-            舌尖上的贵州 那些不容错过的黔味美食
-             <p>2018-8-24 10:34:08</p>
-            </li > 
-            <li class="box">
-            贵州民族风俗
-             <p>2018-9-4 11:20:56</p>
-            </li> 
-            <li  class="box">
-            贵州这11个地方被全球推荐 2个地方进入前十
-             <p>2018-1-23 16:45:52</p>
-            </li> 
-            <li  class="box">
-            2019国际山地旅游暨户外发展大会贵州站启动
-             <p>2019-3-4 14:36:08</p>
-            </li> 
-          </ul>  
+      <i-panel :title="title_name1">      
+       <view class="top-padding">
+          <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
+            <view slot="content">{{item.name2}}</view>
+            <view slot="footer">{{item.time}}</view>
+          </i-card>
+            <view class="top-padding"></view>
+        </view>
       </i-panel>
   </div>
 </template>
@@ -33,6 +18,15 @@ import card from '@/components/card'
 export default {
   data : {
       title_name1: "旅游动态",
+        top: [
+         {name1:"贵州乌江深处",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/8.jpg"},
+         {name1:"贵州乌江深处2",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/17.jpg"},
+         {name1:"贵州乌江深处3",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/15.jpg"},
+         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/14.jpg"},
+         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/14.jpg"},
+         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/14.jpg"},
+         {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/14.jpg"}
+      ],
   },
 
   components: {
@@ -50,21 +44,8 @@ export default {
 </script>
 
 <style scoped>
-  ul{
-   list-style:none;
-   }
-p{
-    font-size:14px;
-    color:#CDC0B0;
-    padding-left:8px;
-  }
-  .box{
-    display:block;
-    width:400px;
-    height:50px;
-    font-size:17px;
-    padding-left:8px;
-    padding-top:10px;
-    border-bottom:2px solid #EEE9E9;
-  }
+    .top-padding{
+  padding-top:50rpx;
+}
+
 </style>

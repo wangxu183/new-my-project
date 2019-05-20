@@ -1,5 +1,12 @@
 <template>
   <div>
+     <view class="Drad"> 
+       <view class="dimo">
+        <img class="icon" src="/static/tabs/fanfdajing.png"> 
+        搜索资讯
+      </view>
+      <img class="imga" src="/static/tabs/whole.png">
+     </view>
       <i-panel :title="title_name1"> 
         <ul  >
             <li class="box" >
@@ -23,26 +30,6 @@
              <p class="grad">2019-3-4 14:36:08</p>
             </li> 
           </ul>  
-          <view class="box1">
-            <img class="imga" src="/static/tabs/16.png">
-            <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
-            <p class="grad">2019-3-4 14:36:08</p>
-          </view>
-          <view class="box1">
-            <img class="imga" src="/static/tabs/10.jpg">
-            <p class="brad">贵州首条直升飞机低空旅游航线 暨航空物流港在凯里开工建设</p>
-            <p class="grad">2017-7-04 09:02:58</p>
-          </view>
-          <view class="box1">
-            <img class="imga" src="/static/tabs/16.png">
-            <p class="brad">贵州荔波发展全域旅游“实现生态美、百姓富”</p>
-            <p class="grad">2018-6-25 18:06:34</p>
-          </view>
-          <view class="box1">
-            <img class="imga" src="/static/tabs/16.png">
-            <p class="brad">一条渠作价3000万入股旅游公司 贵州中天集团探索金融扶贫</p>
-            <p class="grad">2019-01-06 10:06:58</p>
-          </view>
       </i-panel>
   </div>
 </template>
@@ -51,6 +38,7 @@
 
 export default {
     data : {
+        value5: '',
         title_name1: "旅游动态",
         defaultSize: 'default',
         primarySize: 'default',
@@ -88,23 +76,34 @@ export default {
     margin-top:8px;
     margin-right:5px;
   }
-  .box1{
-   display:block;
-   width:380px;
-   height:80px;
-   border-bottom:1px solid #EEE9E9;
-   
+  .Drad{
+    width:390px;
+    height:35px;
   }
-   .imga{
-     float:left;
-     width:100px;
-     height:70px;
-     margin-top:4px;
-     margin-left:8px;
-     margin-right:8px;
-     margin-bottom:10px;
-   }
-
+  .imga{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+  }
+  .crad{
+    font-size:14px;
+    padding-left:8px;
+  }
+  .dimo{
+    float:left;
+    width:290px;
+    height:30px;
+    text-align:center;
+    background-color:#e6e6e6;
+    border:1px solid #EEE9E9;
+    margin-left:10px;
+  }
+  .icon{
+    width:25px;
+    height:25px;
+    margin-top:2px;
+    color:#EEE9E9;
+  }
   .box{
     display:block;
     width:400px;

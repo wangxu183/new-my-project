@@ -24,7 +24,7 @@
      </i-grid>
       <i-panel :title="title_name">         
             <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/11.jpg">
+            <img class="imga" src="/static/tabs/16.png">
             <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
             <p class="grad">2019-3-4 14:36:08</p>
           </view>
