@@ -1,6 +1,6 @@
 <template>
   <div>
-     <view class="Drad"> 
+     <view class="Drad" @click="go()"> 
        <view class="dimo">
         <img class="icon" src="/static/tabs/fanfdajing.png"> 
         搜索资讯
@@ -52,7 +52,12 @@ export default {
      console.log(option.type)
     },
      methods: {
-   
+        go () {
+       wx.navigateTo({
+         url:('/pages/all/main')
+       })
+       console.log('type');
+    },
   },
 
 }
@@ -81,9 +86,9 @@ export default {
     height:35px;
   }
   .imga{
-    width:40px;
-    height:40px;
-    margin-left:10px;
+    width:30px;
+    height:30px;
+    margin-left:20px;
   }
   .crad{
     font-size:14px;
