@@ -1,7 +1,7 @@
 <template>
   <div >
       <i-panel :title="title_name1">      
-       <view class="top-padding">
+       <view class="top-padding" @click="revele()">
           <i-card v-for="item in top" :key="item"  :extra="item.name1" :thumb="item.image">
             <view slot="content">{{item.name2}}</view>
             <view slot="footer">{{item.time}}</view>
@@ -36,7 +36,12 @@ export default {
    console.log(option.type)
    },
   methods: {
- 
+       revele () {
+       wx.navigateTo({
+         url:('/pages/findnews1/main')
+       })
+       console.log('跳转');
+    },
   },
 
   created () {

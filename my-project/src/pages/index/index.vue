@@ -1,10 +1,10 @@
 <template>
   <div>
     <swiper
-      :ndicator-dots="indicatorDots"
-      :autoplay="autoplay"
-      :interval="interval"
-      :duration="duration"
+      indicator-dots="true"
+      autoplay="true"
+      interval="5000"
+      duration="1000"
     >
       <block v-for=" item in imgUrls" :key="item">
           <swiper-item @click="transfor()" >
@@ -126,15 +126,13 @@ export default {
         disabled: false,
         plain: false,
         loading: false,
-      imgUrls: [
-      'http://www.gzcts01.com//uploads/1489825451_4926.png',
-      'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
-      'http://www.gzcts01.com//uploads/image/1520587659_4756.png'
+      imgUrls: [   
+      '/static/tabs/t2.jpg',
+      '/static/tabs/t12.jpg',
+      '/static/tabs/05.jpg',
+      '/static/tabs/t7.jpg'
     ],
-    indicatorDots: false,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000,
+
       title_name: "旅游资讯",
       title_name1: "旅游动态",
       grids: [
