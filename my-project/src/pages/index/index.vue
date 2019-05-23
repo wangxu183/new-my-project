@@ -1,15 +1,15 @@
 <template>
   <div>
     <swiper
-      :ndicator-dots="indicatorDots"
-      :autoplay="autoplay"
-      :interval="interval"
-      :duration="duration"
-      class="top-padding"
+      indicator-dots="true"
+      autoplay="true" 
+      interval="5000"
+      duration="1000"
+      class="swiper" 
     >
       <block v-for=" item in imgUrls" :key="item">
           <swiper-item @click="transfor()" >
-             <image class="img2" :src="item"/>
+             <image :src="item"  />
           </swiper-item>
       </block>
     </swiper>
@@ -132,10 +132,6 @@ export default {
       'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
       'http://www.gzcts01.com//uploads/image/1520587659_4756.png'
     ],
-    indicatorDots: false,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000,
       title_name: "旅游资讯",
       title_name1: "旅游动态",
       grids: [
@@ -203,6 +199,14 @@ div >>> .no-border{
 }
 div >>> .top-padding{
   padding-top:50rpx;
+}
+.swiper {
+ height: 400rpx;
+ width: 100%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
 }
   .dimo{
   float:right;

@@ -1,11 +1,11 @@
 <template>
   <div>
-     <view class="Drad" @click="go()"> 
-       <view class="dimo">
+     <view class="Drad" > 
+       <view class="dimo" @click="go()">
         <img class="icon" src="/static/tabs/fanfdajing.png"> 
         搜索资讯
       </view>
-      <img class="imga" src="/static/tabs/whole.png">
+      <img class="imga" @click="go()" src="/static/tabs/whole.png">
      </view>
       <i-panel :title="title_name1"> 
         <ul  >
@@ -81,13 +81,17 @@ export default {
     margin-top:8px;
     margin-right:5px;
   }
-  .Drad{
-    width:390px;
-    height:35px;
-  }
+view.Drad {
+    display: flex;
+    flex-direction: row;
+    height: 98rpx;
+    background: #fff;
+    align-items: center;
+}
+
   .imga{
-    width:30px;
-    height:30px;
+    width:25px;
+    height:25px;
     margin-left:20px;
   }
   .crad{
@@ -99,8 +103,7 @@ export default {
     width:290px;
     height:30px;
     text-align:center;
-    background-color:#e6e6e6;
-    border:1px solid #EEE9E9;
+    background-color:#efeff4;
     margin-left:10px;
   }
   .icon{

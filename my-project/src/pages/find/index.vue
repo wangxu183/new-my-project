@@ -28,11 +28,13 @@ export default {
          {name1:"贵州乌江深处4",name2:"传统养蜂蜕变观光旅游",time:"2017-07-04 14:36:47",image:"/static/tabs/14.jpg"}
       ],
   },
-
+ 
   components: {
     card
   },
-
+   onLoad (option){
+   console.log(option.type)
+   },
   methods: {
  
   },

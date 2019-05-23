@@ -6,7 +6,6 @@
     </view>
     <open-data type="userNickName"></open-data>
    </view>
-
   </div>
 </template>
 
@@ -14,15 +13,21 @@
 import card from '@/components/card'
 
 export default {
-  data () {
-    return {
+  data : {
+       movies:[  
+        {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} ,  
+        {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} ,  
+        {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} ,  
+        {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} 
+        ]  
+      },  
+      onLoad: function () {  
+      }, 
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
-      }
-    }
-  },
+    },
 
   components: {
     card
@@ -50,6 +55,7 @@ export default {
 </script>
 
 <style scoped>
+
 .userinfo {
 position: relative;
 width: 750rpx;
