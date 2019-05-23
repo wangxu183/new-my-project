@@ -1,15 +1,14 @@
 <template>
   <div>
     <swiper
-      indicator-dots="true"
-      autoplay="true" 
-      interval="5000"
-      duration="1000"
-      class="swiper" 
+      :ndicator-dots="indicatorDots"
+      :autoplay="autoplay"
+      :interval="interval"
+      :duration="duration"
     >
       <block v-for=" item in imgUrls" :key="item">
           <swiper-item @click="transfor()" >
-             <image :src="item"  />
+             <image class="img2" :src="item"/>
           </swiper-item>
       </block>
     </swiper>
@@ -24,7 +23,7 @@
      </i-grid>
       <i-panel :title="title_name">         
             <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/16.png">
+            <img class="imga" src="/static/tabs/11.jpg">
             <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
             <p class="grad">2019-3-4 14:36:08</p>
           </view>
@@ -128,11 +127,14 @@ export default {
         plain: false,
         loading: false,
       imgUrls: [
-      '/static/tabs/t12.jpg',
-      '/static/tabs/t2.jpg',
-      '/static/tabs/05.jpg',
-      '/static/tabs/t7.jpg',
+      'http://www.gzcts01.com//uploads/1489825451_4926.png',
+      'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
+      'http://www.gzcts01.com//uploads/image/1520587659_4756.png'
     ],
+    indicatorDots: false,
+    autoplay: true,
+    interval: 5000,
+    duration: 1000,
       title_name: "旅游资讯",
       title_name1: "旅游动态",
       grids: [
@@ -152,6 +154,10 @@ export default {
 
   components: {
     card
+  },
+
+  change: {
+     
   },
 
   methods: {
@@ -201,14 +207,6 @@ div >>> .no-border{
 div >>> .top-padding{
   padding-top:50rpx;
 }
-.swiper {
- height: 400rpx;
- width: 100%;
-}
-.swiper image {
- height: 100%;
- width: 100%;
-}
   .dimo{
   float:right;
    display:block;
@@ -240,7 +238,6 @@ div >>> .top-padding{
    width:380px;
    height:80px;
    border-bottom:1px solid #EEE9E9;
-   
   }
    .imga{
      float:left;

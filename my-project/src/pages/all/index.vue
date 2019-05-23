@@ -31,7 +31,7 @@ export default {
     },
      methods: {
         go () {
-       wx.navigateTo({
+       wx.switchTab({
          url:('/pages/find/main')
        })
        console.log('type');

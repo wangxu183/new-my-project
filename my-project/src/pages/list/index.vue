@@ -2,9 +2,8 @@
   <div>
      <view class="Drad" > 
        <view class="dimo" @click="go()">
-         <p class="text">搜索资讯</p>
-        <img class="icon" src="/static/tabs/fanfdajing.png"> 
-          
+        <img class="icon" src="/static/tabs/fanfdajing.png"  > 
+          搜索资讯
       </view>
       <img class="imga" @click="go()" src="/static/tabs/whole.png">
      </view>
@@ -113,7 +112,7 @@ view.Drad {
   .icon{
     width:25px;
     height:25px;
-    margin-top:2px;
+    margin-top:5px;
     color:#EEE9E9;
   }
   .box{
