@@ -128,9 +128,10 @@ export default {
         plain: false,
         loading: false,
       imgUrls: [
-      'http://www.gzcts01.com//uploads/1489825451_4926.png',
-      'http://www.gzcts01.com//uploads/image/1520587659_3283.png',
-      'http://www.gzcts01.com//uploads/image/1520587659_4756.png'
+      '/static/tabs/t12.jpg',
+      '/static/tabs/t2.jpg',
+      '/static/tabs/05.jpg',
+      '/static/tabs/t7.jpg',
     ],
       title_name: "旅游资讯",
       title_name1: "旅游动态",

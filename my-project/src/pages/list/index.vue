@@ -2,8 +2,9 @@
   <div>
      <view class="Drad" > 
        <view class="dimo" @click="go()">
+         <p class="text">搜索资讯</p>
         <img class="icon" src="/static/tabs/fanfdajing.png"> 
-        搜索资讯
+          
       </view>
       <img class="imga" @click="go()" src="/static/tabs/whole.png">
      </view>
@@ -80,6 +81,9 @@ export default {
     font-size:15px;
     margin-top:8px;
     margin-right:5px;
+  }
+  .text{
+    font-size:10px;
   }
 view.Drad {
     display: flex;
