@@ -6,6 +6,12 @@
     </view>
     <open-data type="userNickName"></open-data>
    </view>
+   <i-panel title="我想寻找的">
+  <i-input :value="address" title="景区地址" autofocus placeholder="地址" />
+  <i-input :value="name" title="景点名称"  placeholder="名称" />
+  <i-input :value="reason" title="推荐原因"  placeholder="原因" />
+  <i-button bind:click="handleClick">确认提交</i-button>
+  </i-panel >
   </div>
 </template>
 
@@ -14,6 +20,9 @@ import card from '@/components/card'
 
 export default {
   data : {
+       address:"",
+       name:"",
+       reason:"",
        movies:[  
         {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} ,  
         {url:'http://zsly01.qunar.wiki/gz_bd_p/images/t2.jpg'} ,  

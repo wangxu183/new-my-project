@@ -3,7 +3,7 @@
      <view class="Drad" > 
        <view class="dimo" @click="go()">
         <img class="icon" src="/static/tabs/fanfdajing.png"  > 
-          搜索资讯
+         搜索资讯
       </view>
       <img class="imga" @click="go()" src="/static/tabs/whole.png">
      </view>

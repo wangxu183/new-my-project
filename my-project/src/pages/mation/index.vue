@@ -40,16 +40,19 @@
 import card from '@/components/card'
 
 export default {
-  data () {
-    return {
+  data : {
+  
       current_scroll: 'tab1',
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
-      }
-    }
+ 
+    },
   },
+    onLoad (option){
+     console.log(option.type)
+    },
 
   components: {
     card

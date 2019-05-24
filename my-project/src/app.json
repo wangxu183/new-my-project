@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/main",
     "pages/find/main",
+    "pages/mation/main",
     "pages/map/main",
     "pages/counter/main",
     "pages/mine/main",
