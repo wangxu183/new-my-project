@@ -161,7 +161,9 @@ export default {
   methods: {
     change(type){
     console.log('type')
-    let url='../list/main?type=' + type.title
+    let url=''///'../list/main?type=' + type.title
+    // if(grid[0])
+    // else
     mpvue.navigateTo({ url })
     },
       transfor () {

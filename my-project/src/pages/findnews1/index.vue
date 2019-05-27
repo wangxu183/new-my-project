@@ -83,7 +83,8 @@ img{
   width:400px;
   height:40px;
   border-bottom:1px solid #EEE9E9;
- text-align:center;
+  text-align:center;
+  padding-top:10px;
 }
 .head{
   font-weight:700;
