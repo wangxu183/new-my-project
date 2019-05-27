@@ -162,7 +162,11 @@ export default {
     change(type){
     console.log('type')
     let url=''///'../list/main?type=' + type.title
-    // if(grid[0])
+    // if(grid.item=grid[0]){
+    //  wx.navigateTo({
+    //      url:('/pages/remmond/main')
+    //    })
+    // },
     // else
     mpvue.navigateTo({ url })
     },

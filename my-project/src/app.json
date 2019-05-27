@@ -9,8 +9,8 @@
     "pages/list/main",
     "pages/detail/main",
     "pages/all/main",
-    "pages/findnews1/main"
-    
+    "pages/findnews1/main",
+    "pages/findnews2/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
