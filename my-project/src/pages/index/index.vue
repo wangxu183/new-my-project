@@ -14,12 +14,30 @@
     </swiper>
   
     <i-grid i-class="no-border">
-      <i-grid-item @click="change(grid)"  v-for="grid in grids" :key="grid" i-class="no-border">
+    <i-grid-item @click="changeone()" i-class="no-border">
         <i-grid-icon>
-            <image :src="grid.image" />
+            <image src="/static/tabs/tour.png" />
         </i-grid-icon>
-        <i-grid-label>{{grid.title}}</i-grid-label>
-      </i-grid-item >  
+        <i-grid-label >景区推荐</i-grid-label>
+    </i-grid-item>
+    <i-grid-item @click="changetwo()" i-class="no-border">
+        <i-grid-icon>
+            <image src="/static/tabs/fun.png" />
+        </i-grid-icon>
+        <i-grid-label>民族风情</i-grid-label>
+    </i-grid-item>
+    <i-grid-item @click="changethree()" i-class="no-border">
+        <i-grid-icon>
+            <image src="/static/tabs/food.png" />
+        </i-grid-icon>
+        <i-grid-label>特色美食</i-grid-label>
+    </i-grid-item>
+    <i-grid-item @click="changefour()" i-class="no-border">
+        <i-grid-icon>
+            <image src="/static/tabs/play.png" />
+        </i-grid-icon>
+        <i-grid-label>旅游资讯</i-grid-label>
+      </i-grid-item>
      </i-grid>
       <i-panel :title="title_name">         
             <view class="box1" @click="transfor()">
@@ -135,12 +153,6 @@ export default {
 
       title_name: "旅游资讯",
       title_name1: "旅游动态",
-      grids: [
-        {title:"景区推荐",image:"/static/tabs/tour.png"},
-        {title:"民族风情",image:"/static/tabs/fun.png"},
-        {title:"特色美食",image:"/static/tabs/food.png"},
-        {title:"旅游咨询",image:"/static/tabs/play.png"},
-      ],
 
       motto: 'Hello miniprograme',
       userInfo: {
@@ -159,17 +171,32 @@ export default {
   },
 
   methods: {
-    change(type){
-    console.log('type')
-    let url=''///'../list/main?type=' + type.title
-    // if(grid.item=grid[0]){
-    //  wx.navigateTo({
-    //      url:('/pages/remmond/main')
-    //    })
-    // },
-    // else
-    mpvue.navigateTo({ url })
+   
+    changeone () {
+     wx.navigateTo({
+         url:('/pages/feature/main')
+       })
+       console.log('type1');
     },
+    changetwo () {
+     wx.navigateTo({
+         url:('/pages/spectial/main')
+       })
+       console.log('type2');
+    },
+    changethree () {
+     wx.navigateTo({
+         url:('/pages/delicious/main')
+       })
+      console.log('type3');
+    },
+    changefour () {
+     wx.navigateTo({
+         url:('/pages/travel/main')
+       })
+      console.log('type4');
+    },
+
       transfor () {
        wx.navigateTo({
          url:('/pages/list/main')
