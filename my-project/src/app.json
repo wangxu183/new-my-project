@@ -2,7 +2,6 @@
   "pages": [
     "pages/index/main",
     "pages/find/main",
-    "pages/mation/main",
     "pages/map/main",
     "pages/counter/main",
     "pages/mine/main",
@@ -14,7 +13,10 @@
     "pages/feature/main",
     "pages/spectial/main",
     "pages/delicious/main",
-    "pages/travel/main"
+    "pages/travel/main",
+    "pages/fenews/main",
+    "pages/denews/main",
+    "pages/spnews/main"
 
   ],
   "window": {

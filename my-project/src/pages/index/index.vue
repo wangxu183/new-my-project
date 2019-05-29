@@ -174,19 +174,19 @@ export default {
    
     changeone () {
      wx.navigateTo({
-         url:('/pages/feature/main')
+         url:('/pages/fenews/main')
        })
        console.log('type1');
     },
     changetwo () {
      wx.navigateTo({
-         url:('/pages/spectial/main')
+         url:('/pages/spnews/main')
        })
        console.log('type2');
     },
     changethree () {
      wx.navigateTo({
-         url:('/pages/delicious/main')
+         url:('/pages/denews/main')
        })
       console.log('type3');
     },

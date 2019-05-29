@@ -1,11 +1,14 @@
 <template>
   <div > 
-          <view>
-            <view class="box head" >乌江源百里画廊</view>
-            <view class="text">
-           <text  class="first" decode="true" space="true">&nbsp;&nbsp;
+        
+            <view class="box head">乌江源上的秘密</view>
+            <view class="first">
+             <text decode="true" space="true">&nbsp;&nbsp;
              乌江源百里画廊旅游区属国家级旅游资源。\n</text>
+            </view>
              <text>\n</text>
+
+            <view class="text">
             <text  decode="true" space="true">&nbsp;&nbsp;
             位于黔西县南部，321国道公路旁，因修建东风水电站而形成。
             湖区总长62千米，宽度60-1000米之间，湖水面积近20平方千米。
@@ -32,7 +35,7 @@
               <text>\n</text>
               </view>
               
-          </view>
+
   </div>
 </template>
 
@@ -45,7 +48,7 @@ export default {
     },
   
    onLoad (option){
-   console.log(option.type1)
+   console.log(option.type)
    },
   components: {
     card
@@ -64,7 +67,7 @@ export default {
 <style scoped>
 img{
   width:340px;
-  height:100px;
+  height:150px;
   margin-top:15px;
   margin-bottom:15px;
   margin-left:15px;
@@ -76,6 +79,10 @@ img{
   margin-right:10px;
 }
 .first{
+  font-size:16px;
+  font-weight:550;
+  margin-left:10px;
+  margin-right:10px;
   margin-top:30px;
 }
 .box{
@@ -83,11 +90,10 @@ img{
   width:400px;
   height:40px;
   border-bottom:1px solid #EEE9E9;
-  text-align:center;
   padding-top:10px;
 }
 .head{
   font-weight:700;
-  text-align:center;
+  margin-left:20px;
 }
 </style>
