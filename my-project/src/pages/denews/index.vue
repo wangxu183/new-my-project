@@ -1,12 +1,12 @@
 <template>
   <div>
-     <view class="Drad" > 
-       <view class="dimo" @click="go()">
-        <img class="icon" src="/static/tabs/fanfdajing.png"  > 
-         搜索资讯
+      <view class='Drad' @click="go()">
+          <view class='dimo' >
+              <img src="/static/tabs/fanfdajing.png"> 
+              <p class="text">搜索资讯</p>
+          </view>
+        <img class="imga"  src="/static/tabs/whole.png">
       </view>
-      <img class="imga" @click="go()" src="/static/tabs/whole.png">
-     </view>
         <ul @click="wenttwo()" >
             <li class="box" >
              舌尖上的贵州那些不容错过的黔味美食
@@ -49,6 +49,38 @@ export default {
 
 
 <style scoped>
+
+
+view.dimo {
+    display: flex;
+    width: 80%;
+    background: #fff;
+    flex-direction: row;
+    border-radius: 10rpx;
+    margin-right: 20rpx;
+    margin-left: 20rpx;
+}
+view.dimo img {
+    height: 42rpx;
+    width: 42rpx;
+    align-self: center;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
+
+view.dimo .text {
+    flex: 1;
+    font-size: 35rpx;
+    color:#CDC0B0;
+}
+view.Drad {
+    display: flex;
+    flex-direction: row;
+    height: 98rpx;
+    background: #efeff4;
+    align-items: center;
+}
+
   ul{
    list-style:none;
    }
@@ -57,44 +89,10 @@ export default {
     color:#CDC0B0;
     padding-left:8px;
   }
-  .brad{
-    font-size:15px;
-    margin-top:8px;
-    margin-right:5px;
-  }
-  .text{
-    font-size:10px;
-  }
-view.Drad {
-    display: flex;
-    flex-direction: row;
-    height: 98rpx;
-    background: #fff;
-    align-items: center;
-}
-
   .imga{
     width:25px;
     height:25px;
     margin-left:20px;
-  }
-  .crad{
-    font-size:14px;
-    padding-left:8px;
-  }
-  .dimo{
-    float:left;
-    width:290px;
-    height:30px;
-    text-align:center;
-    background-color:#efeff4;
-    margin-left:10px;
-  }
-  .icon{
-    width:25px;
-    height:25px;
-    margin-top:5px;
-    color:#EEE9E9;
   }
   .box{
     display:block;

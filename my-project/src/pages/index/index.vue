@@ -192,7 +192,7 @@ export default {
     },
     changefour () {
      wx.navigateTo({
-         url:('/pages/travel/main')
+         url:('/pages/list/main')
        })
       console.log('type4');
     },
