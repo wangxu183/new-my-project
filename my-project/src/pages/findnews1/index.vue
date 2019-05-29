@@ -1,7 +1,7 @@
 <template>
   <div > 
         
-            <view class="box head">乌江源上的秘密</view>
+            <view class="box head">乌江深处的秘密</view>
             <view class="first">
              <text decode="true" space="true">&nbsp;&nbsp;
              乌江源百里画廊旅游区属国家级旅游资源。\n</text>

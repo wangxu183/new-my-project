@@ -266,6 +266,55 @@
            <img src="/static/tabs/timg19.jpg" width="100%" height="200px">
            <img src="/static/tabs/timg21.jpg" width="100%" height="200px">
 
+
+           <view class="text">
+           <text  decode="true" space="true">&nbsp;&nbsp;
+           丁家脆臊\n</text>
+            <text>\n</text>
+            <text  decode="true" space="true">&nbsp;&nbsp;
+            许多贵阳人谈起"脆臊"这小东西，总是不经意流露出亲
+            切的感觉，爱吃的贵阳人实在是离不开这小小的"脆臊"。不
+            管是下酒还是佐以一碗素面，更或是配上其他的佐料上锅这
+            么一翻炒，小小的”脆臊"总能爆发出不一样的精彩。\n</text>
+            <text>\n</text>
+          </view>
+           <img src="/static/tabs/timg22.jpg" width="100%" height="200px">
+
+           <view class="text">
+           <text  decode="true" space="true">&nbsp;&nbsp;
+           雷家豆腐圆子\n</text>
+            <text>\n</text>
+            <text  decode="true" space="true">&nbsp;&nbsp;
+            在贵阳的大街小巷中，依旧能看见"雷家豆腐圆子"店。经
+            过多方打听，记者终于在交通街小吃城一个不起眼的小门面找
+            到了雷家豆腐圆子如今的掌门人————第五代传人雷世
+            他为我们翻开了一段段尘封已久的往事。\n</text>
+            <text>\n</text>
+          </view>
+           <img src="/static/tabs/timg23.jpg" width="100%" height="200px">
+
+           <view class="text">
+           <text  decode="true" space="true">&nbsp;&nbsp;
+           盐菜饭\n</text>
+            <text>\n</text>
+            <text  decode="true" space="true">&nbsp;&nbsp;
+            一碗香气扑鼻的盐菜饭搭配清新的绿豆汤是夏天最完美
+            的搭配。\n</text>
+            <text>\n</text>
+          </view>
+           <img src="/static/tabs/timg24.jpg" width="100%" height="200px">
+
+          <view class="text">
+           <text  decode="true" space="true">&nbsp;&nbsp;
+           破酥包\n</text>
+            <text>\n</text>
+            <text  decode="true" space="true">&nbsp;&nbsp;
+            包子暄软，馅心细嫩，味咸鲜香，因内有层次，故称为
+            破酥，为安顺地区名小吃。 \n</text>
+            <text>\n</text>
+          </view>
+           <img src="/static/tabs/timg25.jpg" width="100%" height="200px">
+
               
 
   </div>
@@ -307,8 +356,8 @@ img{
 .text{
   font-size:16px;
   font-weight:550;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
 }
 .first{
   font-size:16px;

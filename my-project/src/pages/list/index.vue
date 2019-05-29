@@ -9,24 +9,25 @@
       </view>
       <i-panel :title="title_name1"> 
         <ul  >
-            <li class="box" >
-            受降雨影响，贵州梵净山景区西线山门关闭
-            <p class="grad">2019-3-4 14:36:08</p>
-            </li> 
-            <li class="box">
-            "文体旅"融合发展，贵州将办多项赛事
-             <p class="grad">2019-3-4 14:36:08</p>
-            </li > 
-            <li class="box">
+            <li class="box" @click="gone()">
             贵州，有生之年一定要去一次
              <p class="grad">2019-3-4 14:36:08</p>
             </li> 
-            <li  class="box">
-            受降雨影响 贵州部分景区暂时关闭
+            <li class="box" @click="gtwo()" >
+            舌尖上的贵州那些不容错过的黔味美食
+            <p class="grad">2019-3-4 14:36:08</p>
+            </li> 
+            <li class="box" @click="gthree()">
+            贵州这十几个地方被全球推荐，2个地方进入前十！
+             <p class="grad">2019-3-4 14:36:08</p>
+            </li > 
+
+            <li  class="box" @click="gfour()">
+            贵州民族风俗
              <p class="grad">2019-3-4 14:36:08</p>
             </li> 
-            <li  class="box">
-            2019国际山地旅游暨户外发展大会贵州站启动
+            <li  class="box" @click="gfive()">
+            贵州乌江深处 百里画廊的秘密
              <p class="grad">2019-3-4 14:36:08</p>
             </li> 
           </ul>  
@@ -50,6 +51,37 @@ export default {
          url:('/pages/all/main')
        })
        console.log('type');
+    },
+            gone () {
+       wx.navigateTo({
+         url:('/pages/all/main')
+       })
+       console.log('all');
+    },
+      gtwo () {
+       wx.navigateTo({
+         url:('/pages/delicious/main')
+       })
+       console.log('delicious');
+    },
+      gthree () {
+       wx.navigateTo({
+         url:('/pages/feature/main')
+       })
+       console.log('type');
+    },
+      gfour () {
+       wx.navigateTo({
+         url:('/pages/spectial/main')
+       })
+       console.log('spectial');
+    },
+
+      gfive () {
+       wx.navigateTo({
+         url:('/pages/findnews1/main')
+       })
+       console.log('any');
     },
   },
 
