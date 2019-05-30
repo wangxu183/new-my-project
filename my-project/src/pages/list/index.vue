@@ -52,9 +52,9 @@ export default {
        })
        console.log('type');
     },
-            gone () {
+        gone () {
        wx.navigateTo({
-         url:('/pages/all/main')
+         url:('/pages/must/main')
        })
        console.log('all');
     },
