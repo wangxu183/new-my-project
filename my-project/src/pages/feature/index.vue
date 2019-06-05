@@ -451,13 +451,13 @@ img{
 }
 .text{
   font-size:16px;
-  font-weight:550;
+  font-weight:450;
   margin-left:24px;
   margin-right:10px;
 }
 .first{
   font-size:16px;
-  font-weight:550;
+  font-weight:450;
   margin-left:24px;
   margin-right:10px;
   margin-top:30px;
@@ -470,7 +470,7 @@ img{
   padding-top:10px;
 }
 .head{
-  font-weight:700;
+  font-weight:650;
   margin-left:20px;
 }
 </style>

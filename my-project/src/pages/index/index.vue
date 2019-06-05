@@ -65,17 +65,17 @@
       <ul @click="transfor()">
           <li>
             <h2 class="dimo1" >
-              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/18.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/1.jpg">
             </h2>
             <h3 class="dimo">
-              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/1.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/10.jpg">
             </h3>
           </li>
         </ul>
         <ul>
           <li>
             <h2 class="dimo1">
-              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/10.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/18.jpg">
             </h2>
             <h3 class="dimo">
               <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/7.jpg">
@@ -230,17 +230,20 @@ div >>> .top-padding{
   .dimo{
   float:right;
    display:block;
-   width:184px;
+   width:175px;
    height:150px;
-   margin-top:5px;
+   margin-top:10px;
+   margin-right:6px;
+   margin-bottom:8px;
   }
   .dimo1{
     float:left;
     display:block;
-    width:184px;
+    width:175px;
     height:150px;
-    margin-left:4px;
-    margin-top:5px;
+    margin-left:8px;
+    margin-top:10px;
+    margin-bottom:8px;
   }
 
   .grad{
