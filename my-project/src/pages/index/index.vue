@@ -119,17 +119,6 @@
           </ul>  
       </i-panel>
   
-      <button
-        type="default"
-        :size="defaultSize"
-        :loading="loading"
-        :plain="plain"
-        :disabled="disabled"
-        hover-class="other-button-hover"
-        @click="transfor()"
-      >
-        查看更多>>>
-      </button> 
   </div>
 </template>
 
