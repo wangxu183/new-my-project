@@ -9,7 +9,7 @@
             样的古镇，在贵州就有不少。\n</text>
             </view>
              <text>\n</text>
-              <img src="/static/tabs/z5.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/z5.jpg" width="100%" height="200px">
 
             <view class="text">
            <text  decode="true" space="true">
@@ -17,7 +17,7 @@
               窗里，令每一个观客都望之沉醉，见之入梦。\n</text>
             <text>\n</text>
             </view>
-            <img src="/static/tabs/w8.jpg" width="100%" height="200px">
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w8.jpg" width="100%" height="200px">
 
 
             <view class="text">
@@ -27,7 +27,7 @@
               向你传唱一段历史的余音。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/w10.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w10.jpg" width="100%" height="200px">
 
              <view class="text">
              <text  decode="true" space="true">
@@ -36,7 +36,7 @@
               你需要知道，这仅仅是贵州旅行盛宴的一部分。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/w7.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w7.jpg" width="100%" height="200px">
 
                 <view class="text">
              <text  decode="true" space="true">
@@ -45,7 +45,7 @@
                 城，它们就深藏在那里，守着岁月，遗世而独立。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/y7.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y7.jpg" width="100%" height="200px">
 
                 <view class="text">
              <text  decode="true" space="true">
@@ -67,7 +67,7 @@
             北岸为旧府城，南岸为旧卫城。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/w3.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w3.jpg" width="100%" height="200px">
 
             <view class="text">
             <text  decode="true" space="true">
@@ -77,8 +77,8 @@
               玉。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/w9.jpg" width="100%" height="200px">
-                <img src="/static/tabs/w4.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w9.jpg" width="100%" height="200px">
+                <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w4.jpg" width="100%" height="200px">
 
 
               <view class="text">
@@ -88,7 +88,7 @@
               给人ー种“歪门与斜道"的既视感，十分有趣。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/w11.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w11.jpg" width="100%" height="200px">
 
 
             <view class="text">
@@ -110,7 +110,7 @@
             来坐1路公交县委、县政府站，票价2元。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/w1.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/w1.jpg" width="100%" height="200px">
 
            <view class="text">
           <text  decode="true" space="true">
@@ -122,7 +122,7 @@
               点"之ー，有着迴然不同于 江南水乡的阳刚之气。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/qing.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/qing.jpg" width="100%" height="200px">
 
           
             <view class="text">
@@ -132,9 +132,9 @@
               有不同的风情，不同的故事。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/qy.jpg" width="100%" height="200px">
-              <img src="/static/tabs/qqq.jpg" width="100%" height="200px">  
-              <img src="/static/tabs/yan.jpg" width="100%" height="200px"> 
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/qy.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/qqq.jpg" width="100%" height="200px">  
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/yan.jpg" width="100%" height="200px"> 
 
                <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 

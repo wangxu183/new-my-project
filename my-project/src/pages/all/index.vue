@@ -2,7 +2,7 @@
   <div>
           <view class='Drad'>
               <view class='dimo'>
-                  <img src="/static/tabs/fanfdajing.png"> 
+                  <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/fanfdajing.png"> 
                   <input placeholder='站内查询'>
               </view>
           </view>

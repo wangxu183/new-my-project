@@ -2,10 +2,10 @@
   <div>
       <view class='Drad' @click="go()">
           <view class='dimo' >
-              <img src="/static/tabs/fanfdajing.png"> 
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/fanfdajing.png"> 
               <p class="text">搜索资讯</p>
           </view>
-        <img class="imga"  src="/static/tabs/whole.png">
+        <img class="imga"  src="cloud://wangxu-44b924.7761-wangxu-44b924/images/whole.png">
       </view>
         <ul @click="wenttwo()" >
             <li class="box" >

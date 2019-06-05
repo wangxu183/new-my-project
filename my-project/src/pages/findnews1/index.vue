@@ -18,7 +18,7 @@
             <text>\n</text>
             </view>
           
-            <img src="/static/tabs/timg.jpg" width="100%" height="200px">
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg.jpg" width="100%" height="200px">
             <view class="text">
               <text  decode="true" space="true">&nbsp;&nbsp;
               乌江是长江南岸最大的一级支流，全长1050公里,乌江有南、北两条河，南源三岔河发源于威宁县的香炉山，

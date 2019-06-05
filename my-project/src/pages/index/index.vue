@@ -16,47 +16,47 @@
     <i-grid i-class="no-border">
     <i-grid-item @click="changeone()" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/tour.png" />
+            <image src="cloud://wangxu-44b924.7761-wangxu-44b924/images/tour.png" />
         </i-grid-icon>
         <i-grid-label >景区推荐</i-grid-label>
     </i-grid-item>
     <i-grid-item @click="changetwo()" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/fun.png" />
+            <image src="cloud://wangxu-44b924.7761-wangxu-44b924/images/fun.png" />
         </i-grid-icon>
         <i-grid-label>民族风情</i-grid-label>
     </i-grid-item>
     <i-grid-item @click="changethree()" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/food.png" />
+            <image src="cloud://wangxu-44b924.7761-wangxu-44b924/images/food.png" />
         </i-grid-icon>
         <i-grid-label>特色美食</i-grid-label>
     </i-grid-item>
     <i-grid-item @click="changefour()" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/tabs/play.png" />
+            <image src="cloud://wangxu-44b924.7761-wangxu-44b924/images/play.png" />
         </i-grid-icon>
         <i-grid-label>旅游资讯</i-grid-label>
       </i-grid-item>
      </i-grid>
       <i-panel :title="title_name">         
             <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/11.jpg">
+            <img class="imga" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/11.jpg">
             <p class="brad">贵州乌江深处：传统养峰蜕变观光旅游</p>
             <p class="grad">2019-3-4 14:36:08</p>
           </view>
           <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/10.jpg">
+            <img class="imga" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/10.jpg">
             <p class="brad">贵州首条直升飞机低空旅游航线 暨航空物流港在凯里开工建设</p>
             <p class="grad">2017-7-04 09:02:58</p>
           </view>
           <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/8.jpg">
+            <img class="imga" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/8.jpg">
             <p class="brad">贵州荔波发展全域旅游“实现生态美、百姓富”</p>
             <p class="grad">2018-6-25 18:06:34</p>
           </view>
           <view class="box1" @click="transfor()">
-            <img class="imga" src="/static/tabs/19.jpg">
+            <img class="imga" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/19.jpg">
             <p class="brad">一条渠作价3000万入股旅游公司 贵州中天集团探索金融扶贫</p>
             <p class="grad">2019-01-06 10:06:58</p>
           </view>
@@ -65,20 +65,20 @@
       <ul @click="transfor()">
           <li>
             <h2 class="dimo1" >
-              <img  class="img1" src="/static/tabs/18.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/18.jpg">
             </h2>
             <h3 class="dimo">
-              <img  class="img1" src="/static/tabs/1.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/1.jpg">
             </h3>
           </li>
         </ul>
         <ul>
           <li>
             <h2 class="dimo1">
-              <img  class="img1" src="/static/tabs/10.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/10.jpg">
             </h2>
             <h3 class="dimo">
-              <img  class="img1" src="/static/tabs/7.jpg">
+              <img  class="img1" src="cloud://wangxu-44b924.7761-wangxu-44b924/images/7.jpg">
             </h3>
           </li>
         </ul>
@@ -145,10 +145,10 @@ export default {
         plain: false,
         loading: false,
       imgUrls: [   
-      '/static/tabs/t2.jpg',
-      '/static/tabs/t12.jpg',
-      '/static/tabs/05.jpg',
-      '/static/tabs/t7.jpg'
+      'cloud://wangxu-44b924.7761-wangxu-44b924/images/t2.jpg',
+      'cloud://wangxu-44b924.7761-wangxu-44b924/images/t12.jpg',
+      'cloud://wangxu-44b924.7761-wangxu-44b924/images/05.jpg',
+      'cloud://wangxu-44b924.7761-wangxu-44b924/images/t7.jpg'
     ],
 
       title_name: "旅游资讯",

@@ -30,7 +30,7 @@
             \n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/timg1.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg1.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -43,7 +43,7 @@
             诱人，也顾不得是在小推子边的不雅，大饱口福为快。 \n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg2.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg2.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -61,7 +61,7 @@
             起，吃起来口感细腻，而且带着清香味。\n</text>
             <text>\n</text>
           </view> 
-           <img src="/static/tabs/timg3.jpg" width="100%" height="200px">         
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg3.jpg" width="100%" height="200px">         
           
            <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -82,8 +82,8 @@
             足。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg4.jpg" width="100%" height="200px">
-           <img src="/static/tabs/timg5.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg4.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg5.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -96,7 +96,7 @@
             轻女性最爱光顾的地方。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg6.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg6.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -107,7 +107,7 @@
             早餐都不会厌倦，其美味和引诱度不言而喻。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg7.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg7.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -120,7 +120,7 @@
             是不辣的，嗜辣的食客需要自己放干辣椒面或油辣椒。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg8.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg8.jpg" width="100%" height="200px">
 
            <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -133,7 +133,7 @@
             兑、泡等。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg9.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg9.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -148,7 +148,7 @@
             寓意吉祥。贵阳市区内各小吃街均有卖。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg10.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg10.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -162,7 +162,7 @@
             刺激着你的味蕾，好吃的让你停不下口。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg11.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg11.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -177,7 +177,7 @@
             脆里糯，喜甜爱咸都可得到满足，吃完满口留香。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg12.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg12.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -189,8 +189,8 @@
             市民耳熟能详的美食。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg13.jpg" width="100%" height="200px">
-           <img src="/static/tabs/timg14.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg13.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg14.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -207,7 +207,7 @@
             香!然后打发孩子到菜场买一块豆豉粑回来，今晚咱家也吃豆豉火锅。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg15.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg15.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -219,7 +219,7 @@
             点都不会腻。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg16.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg16.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -233,7 +233,7 @@
             不可遗漏的一道美食。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg17.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg17.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -249,7 +249,7 @@
             皮，抓在手里好烫，要不停地倒手，不然非烫伤不可。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg18.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg18.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -263,8 +263,8 @@
             因此也受到市民的欢迎。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg19.jpg" width="100%" height="200px">
-           <img src="/static/tabs/timg21.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg19.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg21.jpg" width="100%" height="200px">
 
 
            <view class="text">
@@ -278,7 +278,7 @@
             么一翻炒，小小的”脆臊"总能爆发出不一样的精彩。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg22.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg22.jpg" width="100%" height="200px">
 
            <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -291,7 +291,7 @@
             他为我们翻开了一段段尘封已久的往事。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg23.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg23.jpg" width="100%" height="200px">
 
            <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -302,7 +302,7 @@
             的搭配。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg24.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg24.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">&nbsp;&nbsp;
@@ -313,7 +313,7 @@
             破酥，为安顺地区名小吃。 \n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/timg25.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/timg25.jpg" width="100%" height="200px">
 
               
 

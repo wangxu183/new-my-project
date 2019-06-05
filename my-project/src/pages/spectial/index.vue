@@ -7,7 +7,7 @@
              贵州省是一个多民族的省份。\n</text>
             </view>
              <text>\n</text>
-            <img src="/static/tabs/yy.jpg" width="100%" height="200px">
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/yy.jpg" width="100%" height="200px">
 
             <view class="text">
             <text  decode="true" space="true">&nbsp;&nbsp;
@@ -26,7 +26,7 @@
             贵州是苗族人口最多的省份，全国的苗族有60%住在贵州省。\n</text>
             <text>\n</text>
             </view>
-            <img src="/static/tabs/y6.jpg" width="100%" height="200px">         
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y6.jpg" width="100%" height="200px">         
  
             <view class="text">
               <text  decode="true" space="true">&nbsp;&nbsp;
@@ -41,7 +41,7 @@
             为三层。在山腰上的多为吊脚楼式 差异较大。\n</text>
               <text>\n</text>
             </view>
-            <img src="/static/tabs/y9.jpg" width="100%" height="200px">
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y9.jpg" width="100%" height="200px">
 
             <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 
@@ -72,7 +72,7 @@
               腰，妇女喜欢银饰等。布依族信神，尤崇祖先。也有信外教的。节日很多，有六月六、三月三、四月八、新节、赶乾洞等。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/y11.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y11.jpg" width="100%" height="200px">
 
             <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 
@@ -93,7 +93,7 @@
               母"萨岁女神。主要节目有过伺年，吃新节等。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/y12.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y12.jpg" width="100%" height="200px">
 
 
               <view class="text">
@@ -112,7 +112,7 @@
               久的民族，是古羌人的分支。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/y13.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y13.jpg" width="100%" height="200px">
               
               <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 
@@ -131,7 +131,7 @@
               节日有火把节、丰收节、祭山节等。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/y14.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y14.jpg" width="100%" height="200px">
 
               <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 
@@ -150,7 +150,7 @@
               要节日有过年、四月八、端午、六月六、重阳等。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/y15.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y15.jpg" width="100%" height="200px">
 
               <view class="text">
              <text  decode="true" space="true">&nbsp;&nbsp; 
@@ -165,7 +165,7 @@
               居在贵州与广西接壤处。\n</text>
               <text>\n</text>
               </view>  
-              <img src="/static/tabs/y16.jpg" width="100%" height="200px">                          
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y16.jpg" width="100%" height="200px">                          
 
   </div>
 </template>

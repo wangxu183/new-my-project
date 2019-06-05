@@ -9,7 +9,7 @@
               在咱贵州到哪儿最涼快呢?\n</text>
             </view>
              <text>\n</text>
-             <img src="/static/tabs/y1.jpg" width="100%" height="200px">
+             <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y1.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -36,7 +36,7 @@
             <text>\n</text>
           </view>
 
-           <img src="/static/tabs/y8.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/y8.jpg" width="100%" height="200px">
           <view class="text">
             <text  decode="true" space="true">
             被入选2017中国避暑休闲百佳县排名的地方 \n
@@ -48,7 +48,7 @@
             暑度假，被誉为中国十大避暑城市”。 \n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg1.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg1.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">
@@ -58,7 +58,7 @@
             宏，但其水声似雷声轰鸣，如万马嘶吼，着实震撼。\n</text>
             <text>\n</text>
           </view> 
-           <img src="/static/tabs/zimg2.jpg" width="100%" height="200px">         
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg2.jpg" width="100%" height="200px">         
           
            <view class="text">
             <text  decode="true" space="true">
@@ -69,8 +69,8 @@
             闻名遐迩，是毕节“红色旅游"的最高点。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg3.jpg" width="100%" height="200px">
-           <img src="/static/tabs/zimg4.png" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg3.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg4.png" width="100%" height="200px">
 
           <view class="text">
             <text  decode="true" space="true">
@@ -83,7 +83,7 @@
             纳凉的绝佳之地。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg5.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg5.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">
@@ -95,8 +95,8 @@
             百合花等特色花卉，而且这里还有各种特色美食。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg6.jpg" width="100%" height="200px">
-           <img src="/static/tabs/zimg7.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg6.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg7.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -108,7 +108,7 @@
             情的商业街。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg8.png" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg8.png" width="100%" height="200px">
 
            <view class="text">
             <text  decode="true" space="true">
@@ -117,7 +117,7 @@
             镇宁自古以来素有"黔滇锁匙"之称，全年平均气温17.4-19.7℃，是避暑休闲的好去处!\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg9.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg9.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">
@@ -129,8 +129,8 @@
           是涨过端午水后，黄果树大瀑布水量充足，蔚为壮观。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/zimg10.jpg" width="100%" height="200px">
-          <img src="/static/tabs/zimg11.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg10.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg11.jpg" width="100%" height="200px">
 
           <view class="text">
             <text  decode="true" space="true">
@@ -142,8 +142,8 @@
           见识才知什么叫"天下奇观”。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg12.jpg" width="100%" height="200px">
-           <img src="/static/tabs/zimg13.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg12.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg13.jpg" width="100%" height="200px">
 
           <view class="text">
             <text  decode="true" space="true">\
@@ -154,7 +154,7 @@
             于同一纬度，是最适宜人居的地方之一。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg14.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg14.jpg" width="100%" height="200px">
 
           <view class="text">
            <text  decode="true" space="true">
@@ -166,8 +166,8 @@
             景与现代化桥梁共同构成一处天然与人工交相辉映的景观。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/zimg15.jpg" width="100%" height="200px">
-          <img src="/static/tabs/zimg16.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg15.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg16.jpg" width="100%" height="200px">
 
 
           <view class="text">
@@ -178,8 +178,8 @@
             有天然草场21000亩，天然林7490亩，素有“江南塞外"之称。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/zimg17.jpg" width="100%" height="200px">
-          <img src="/static/tabs/zimg18.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg17.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg18.jpg" width="100%" height="200px">
          
          
           <view class="text">
@@ -190,8 +190,8 @@
             夏凉、气候温和、舒适宜人、季风明显。\n</text>
             <text>\n</text>
           </view>
-          <img src="/static/tabs/zimg19.jpg" width="100%" height="200px">
-          <img src="/static/tabs/zimg20.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg19.jpg" width="100%" height="200px">
+          <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg20.jpg" width="100%" height="200px">
  
 
           <view class="text">
@@ -204,8 +204,8 @@
             畔万亩花海争相开放，景色十分迷人。\n</text>
             <text>\n</text>
           </view>
-           <img src="/static/tabs/zimg21.jpg" width="100%" height="200px">
-           <img src="/static/tabs/zimg22.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg21.jpg" width="100%" height="200px">
+           <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg22.jpg" width="100%" height="200px">
 
             <view class="text">
               <text  decode="true" space="true">
@@ -216,7 +216,7 @@
             持原始风貌。\n</text>
               <text>\n</text>
             </view>
-            <img src="/static/tabs/zimg23.jpg" width="100%" height="200px">
+            <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg23.jpg" width="100%" height="200px">
 
             <view class="text">
              <text  decode="true" space="true">
@@ -226,7 +226,7 @@
               6℃。冬无严塞，夏无酷暑，四季如春，气候宜人。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg24.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg24.jpg" width="100%" height="200px">
               
               <view class="text">
               <text  decode="true" space="true">
@@ -239,7 +239,7 @@
                 节日。\n</text>
                 <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg25.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg25.jpg" width="100%" height="200px">
 
               <view class="text">
              <text  decode="true" space="true">
@@ -252,7 +252,7 @@
               堂屋"所在地\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg26.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg26.jpg" width="100%" height="200px">
 
                <view class="text">
              <text  decode="true" space="true">
@@ -263,7 +263,7 @@
               雨热同期，气候温和。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg27.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg27.jpg" width="100%" height="200px">
 
 
               <view class="text">
@@ -275,8 +275,8 @@
               的绝佳场所。漂流里程总长约10公里，落差200米。\n</text>
                 <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg28.jpg" width="100%" height="200px">
-              <img src="/static/tabs/zimg29.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg28.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg29.jpg" width="100%" height="200px">
 
 
               <view class="text">
@@ -289,7 +289,7 @@
               园。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg30.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg30.jpg" width="100%" height="200px">
 
             <view class="text">
              <text  decode="true" space="true">
@@ -300,7 +300,7 @@
             气温15.2℃。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg31.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg31.jpg" width="100%" height="200px">
 
               <view class="text">
               <text  decode="true" space="true">
@@ -312,8 +312,8 @@
               生为一体的大健康生态旅游目的地。\n</text>
                 <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg32.jpg" width="100%" height="200px">
-              <img src="/static/tabs/zimg33.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg32.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg33.jpg" width="100%" height="200px">
 
 
                <view class="text">
@@ -325,7 +325,7 @@
               业园区之ー，也是六盘水市第一家"双百园区"。\n</text>
               <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg34.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg34.jpg" width="100%" height="200px">
 
               <view class="text">
              <text  decode="true" space="true">
@@ -337,7 +337,7 @@
               15.3℃之间。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg35.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg35.jpg" width="100%" height="200px">
 
             <view class="text">
               <text  decode="true" space="true">
@@ -349,7 +349,7 @@
                 为距今5亿年前形成的寒武纪早、中寒武世古老地层。\n</text>
                 <text>\n</text>
               </view>
-             <img src="/static/tabs/zimg36.jpg" width="100%" height="200px">
+             <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg36.jpg" width="100%" height="200px">
 
             <view class="text">
              <text  decode="true" space="true">
@@ -360,7 +360,7 @@
               汤”的息烽温泉。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg37.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg37.jpg" width="100%" height="200px">
 
               <view class="text">
               <text  decode="true" space="true">
@@ -373,7 +373,7 @@
                 內罕见的氢泉，有重要的医疗价值。\n</text>
                 <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg38.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg38.jpg" width="100%" height="200px">
   
 
             <view class="text">
@@ -385,7 +385,7 @@
               方风光绮丽，荣获“地球花篮"的称号。\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/zimg39.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg39.jpg" width="100%" height="200px">
 
             <view class="text">
               <text  decode="true" space="true">
@@ -401,8 +401,8 @@
                 \n</text>
                 <text>\n</text>
               </view>
-              <img src="/static/tabs/zimg41.jpg" width="100%" height="200px">
-              <img src="/static/tabs/zimg42.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg41.jpg" width="100%" height="200px">
+              <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/zimg42.jpg" width="100%" height="200px">
 
               <view class="text">
              <text  decode="true" space="true">
@@ -411,7 +411,7 @@
               赶快为你的家乡投上一票吧 !!!\n</text>
               <text>\n</text>
               </view>
-               <img src="/static/tabs/t2.jpg" width="100%" height="200px">
+               <img src="cloud://wangxu-44b924.7761-wangxu-44b924/images/t2.jpg" width="100%" height="200px">
 
   </div>
 </template>
